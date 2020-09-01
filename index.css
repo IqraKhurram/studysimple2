@@ -1,0 +1,616 @@
+*
+{
+	margin:0px;
+	padding:0px;
+	font-family: 'montserrat' , sans-serif;
+}
+header{
+
+		background-image:url(https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png);
+
+	background-size: cover;
+   color: white;
+  height:105vh;
+  width:100%;
+ 
+}
+
+nav{
+	display:flex;
+	width: 100%;
+	height: 100px;
+	}
+
+.logo{ width:55%;
+	  height:100px;
+
+	  }
+
+.logo img{
+	line-height: 70px;
+	padding-left:50px;
+	margin-top: 15px;
+	height:70px;
+
+}	  
+.list ul{                                        
+	list-style-type: none;
+	width:100%;
+	height: 100px;
+	display: flex;
+	flex-direction:row;
+	justify-content:space-around;
+	align-items: center;
+	font-size:15px;
+	    font-family: 'Roboto', sans-serif;
+
+}
+ li a{
+	color:white;
+    text-decoration: none;
+    padding:5px 20px;
+    border:1px solid transparent;
+    	    font-family: 'Roboto', sans-serif;
+
+}
+
+ul li a:hover{
+	background-color: white;
+    color: black;
+    transition: 0.6s ease; 
+
+
+}
+.active{
+	background-color: white;    color: black;
+	box-shadow: 1px 1px 10px grey;
+}
+
+
+.list{
+      width:45%;
+      height: 100px;
+      
+}
+
+.main{
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+section{
+	display:flex;
+	justify-content: space-around;
+
+}
+.left-side{
+	width: 45%;
+	height:auto;
+	overflow: hidden;
+	padding-top: 0px;
+	
+}
+
+.right-side{
+	width:45%;
+	height: 200px;
+	text-align: center;
+	margin-top: 50px;
+	padding: 20px;
+	margin-right: 60px;
+		         font-family: 'Fredoka One', cursive;
+
+	}
+
+.right-side span{
+	display: block;
+	color: white;
+	background-color: transparent;
+
+}
+
+
+
+.t1{
+
+	font-size: 40px;
+
+	font-weight: 700;
+
+	letter-spacing: 6px;
+
+	margin-bottom: 20px;
+
+	background-color: black;
+
+	position: relative;
+
+	animation: welcome 3s 1 ease;
+	text-shadow: 1px 3px 3px black;
+
+}
+
+
+.t2 {
+
+	font-size: 30px;
+	font-weight: bold;
+
+	position:relative;
+
+	animation: text 3s ease;
+
+}
+
+.boom, .t3{
+	animation: button 3s ease;
+}
+
+
+
+@keyframes welcome {
+
+0%{
+
+	margin-bottom: -40px;
+}
+
+30%{
+
+	letter-spacing: 15px;
+    margin-bottom: -40%;
+}
+85%{
+
+letter-spacing: 8px;
+margin-bottom: -40%;}
+}
+}
+
+
+
+@keyframes text{
+
+	0%{
+     color:transparent;
+     }
+	30%{
+		color: transparent;
+     }
+    85%{
+     color: transparent;
+
+	}
+}
+
+
+
+@keyframes button{
+	0%{
+    color:transparent;
+    background: transparent;}
+    30%{
+    	color: transparent;
+    	background-color: transparent;
+    }
+
+    85%{
+     color: transparent;
+         background-color: transparent;
+         background: transparent;
+         	}
+}
+
+.right-side p{
+	font-size:18px;
+	padding:30px 0px;
+
+}
+.left-side img{
+width: 45vw;
+height:70vh;
+margin-right: 60px; 
+}
+
+
+.boom:hover {
+		background: linear-gradient(57deg, #2F80ED, #56CCF2);
+ border:none; 
+}
+
+.right-side a{
+	font-size: 17;
+	padding: 25px 25px;
+	color:white;
+	background: linear-gradient(57deg,#56CCF2, #2F80ED);
+	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 40px
+
+}
+
+.main{
+	padding-top:60px;
+	padding-left: 80px;
+padding-right:80px;
+padding-bottom: 20px;
+
+}
+.contents{
+	height: 500px;  
+}
+
+
+.item a{
+	text-decoration:none;   color:black;
+}
+
+.item img{
+
+	height:200px;
+
+	width:200px;
+
+}
+.item{
+	float:left;  margin-right: 40px;
+}
+
+.item p{
+  font-size:28px;   margin-top:30px; text-align: center;
+}
+
+.quiz{
+	margin-top: 100px;  width:100%;  padding-bottom: 200px;  height:300px; background-imagbe: url();
+}
+
+.fill{
+		display: flex;
+	justify-content: center;
+		box-shadow: 3px 3px 10px black;
+	    border-radius: 40px;
+	    width: 60%;
+
+
+}
+
+
+
+
+.internal{
+	width: 100%;
+		padding: 40px;
+		padding-left: 50px;
+		background: white;
+		border-radius: 40px;
+			    	background-image:url(https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png);
+background-size: cover;
+background-repeat: no-repeat;
+			    color: white
+
+}
+
+
+
+	
+
+.form{
+padding-top: 60px;
+margin-top:200px;
+background-imagbe:url(https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png);
+background-size: cover;
+
+}
+.form p{
+
+	    font-family: 'Roboto', sans-serif;
+font-weight: bold;
+    font-size:18px;
+
+}
+.form label{
+    font-family: 'Roboto', sans-serif;
+        font-size:18px;
+
+
+}
+input, textarea, select{
+border-radius: 18px;
+	width:30vw;
+
+	margin-top:2px;
+
+	margin-bottom:30px;
+
+    padding:15px;
+
+    font-size:20px;
+
+    border:1px solid #dee7ec;
+        font-family: 'Roboto', sans-serif;
+
+}
+
+.radio{
+	padding:0px;
+	width: auto;
+	margin-top: 5px;
+	margin-bottom: 5px
+}
+
+
+
+.form img{
+	float: right;
+	height: 600px;
+	width:50%;
+	margin-top: 130px;
+	margin-right: 100px;
+}
+
+
+.contact-submit{
+
+ background-color: transparent;
+ color:#fff;
+ border-radius: 23px;
+
+ width:300px;
+ font-weight: bold;
+ border: 3px solid white;
+ padding: 10px
+ }
+
+.contact-submit:hover{
+	background: white;
+	color: black;
+	transition: ease
+}
+
+
+.footer {
+
+ background: linear-gradient(80deg,#0099ff,#009999);
+ color: #fff;
+ height: 120px;
+padding: 40px;
+margin-top: 100PX;
+}
+
+
+
+.footer-logo img{
+
+  float: left;
+
+  height: 80px;
+}
+
+
+
+.footer-list {
+ float: right;
+
+  font-size:20px;
+
+}
+
+
+.footer-list li {
+
+  padding-bottom: 20px;
+  list-style: none;
+}
+
+.subtitle{
+	border-bottom: 2px solid #dee7ec;
+
+	font-size:35px;
+
+	padding-bottom:15px;
+
+	margin-bottom:50px;
+	            
+
+
+}
+
+.footer-list a{
+	text-decoration: none;
+	color:white;
+
+}
+
+.last{
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	padding:4vh;
+	font-family: 'Baloo Tamma 2', cursive;
+
+}
+.bigbox{
+	background: #f7f5f4;
+	padding-bottom: 5px
+}
+
+.box{
+
+margin:100px 80px;
+
+}
+.parent{	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+   flex-wrap: wrap;
+
+}
+.source{
+	text-align: center;
+	color: black;
+    font-size: 50px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    font-weight: bold;
+             font-family: 'Fredoka One', cursive;
+             font-weight: lighter;
+             box-sizing: border-box;
+}
+
+.flexbox a{
+	color: white;
+	text-decoration: none;
+}
+.flexbox{
+	width: 200px;
+	margin-right:20px;
+	min-height: 200px;
+	padding: 40px;
+	border-radius: 25px;
+	color: white;
+}
+
+.child2{
+		background-color: #fac761;
+background-image: linear-gradient(183deg, #fac761 0%, #f7421c 100%);
+
+} 
+.child1{
+	background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%,  rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% );
+}
+
+.child3{
+	background-image: linear-gradient( 180deg,  rgba(163,217,207,1) 11.2%, rgba(4,178,217,1) 100.2% );
+}
+.flexbox li{
+	list-style-type: disc;
+	font-size: 25px;
+
+}
+.flexbox h1{
+	text-align: center;
+	font-size: 40px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dropbtn {
+     font-family: 'Roboto', sans-serif;
+
+background-color: transparent;
+  color: white;
+ padding:5px 20px;
+ font-size: 15px;
+  border: none;
+}
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+
+.dropdown-content {
+ display: none;
+ position: absolute;
+ background-color: #f9f9f9;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+
+.dropdown-content a {
+ color: black;
+ padding: 8px 13px;
+  text-decoration: none;
+  display: block;
+
+}
+
+
+
+.dropdown-content a:hover {color: black;      background: linear-gradient(80deg,#0099ff,#009999);
+}
+
+
+
+.dropdown:hover .dropdown-content {
+ display: block;
+
+}
+
+
+.dropdown:hover .dropbtn {
+background-color: white;
+  color: black;
+}
+
+
+
+.woo{
+	position: absolute;
+	bottom: -6vh;
+	left:0;
+	top:;
+}
+
+
+
+
+/*WAVE CSS*/
+
+.custom-shape-divider-bottom-1598683422 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1598683422 svg {
+    position: relative;
+    display: block;
+    width: calc(108% + 1.3px);
+    height: 138px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1598683422 .shape-fill {
+    fill: #fff;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .woo{
+        width: calc(108% + 1.3px);
+        height: 201px;
+    }
+}
+ 
+
+@media (max-width: 554px){
+.left-side{
+opacity: 0;
+height: 0;
+width: 0px;
+}
+
+
